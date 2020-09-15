@@ -13,7 +13,6 @@ function qes1(q1) {
   }
   else if (q1.toLowerCase() === 'no' || q1.toLowerCase() === 'n') {
     alert('Your Anwer is  Correct ,Welldone');
-    //  console.log('Your Anwer in question (1) is  Correct ,Welldone');
     count++;
   }
   else {
@@ -25,7 +24,6 @@ function qes1(q1) {
 function qes2(q2) {
   if (q2.toLowerCase() === 'yes' || q2.toLowerCase() === 'y') {
     alert('Your Anwer is  Correct ,Welldone');
-    // console.log('Your Anwer in question (2) is  Correct ,Welldone');
     count++;
   }
   else if (q2.toLowerCase() === 'no' || q2.toLowerCase() === 'n') {
@@ -40,7 +38,6 @@ function qes2(q2) {
 function qes3(q3) {
   if (q3.toLowerCase() === 'yes' || q3.toLowerCase() === 'y') {
     alert('Your Anwer is  Correct ,Welldone');
-    //  console.log('Your Anwer in question (3) is  Correct ,Welldone')
     count++;
   }
   else if (q3.toLowerCase() === 'no' || q3.toLowerCase() === 'n') {
@@ -60,7 +57,6 @@ function qes4(q4) {
   else if (q4.toLowerCase() === 'no' || q4.toLowerCase() === 'n') {
 
     alert('Your Anwer is  Correct ,Welldone');
-    // console.log('Your Anwer in question (4) is  Correct ,Welldone')
     count++;
   }
   else {
@@ -74,7 +70,6 @@ function qes5(q5)
   switch (true) {
   case (q5.toLowerCase() === 'yes' || q5.toLowerCase() === 'y'):
     alert('Your Anwer is  Correct ,Welldone');
-    //console.log('Your Anwer in question (5) is  Correct ,Welldone')
     count++;
     break;
   case (q5.toLowerCase() === 'no' || q5.toLowerCase() === 'n'):
@@ -93,7 +88,6 @@ function qes6() {
   var myNumber;
   var randomNumber = Math.floor(Math.random() * 16);
   for (var i = 0; i < 4; i++) {
-    //console.log(randomNumber);
     myNumber = Number(prompt('Question 6 :Lets play a Number guessing game , you have 4 opportunities to get the correct answer\n Hint: The number between (0-15)  '));
     if (myNumber === randomNumber) {
       alert('Well done,Correct Answer');
@@ -128,7 +122,6 @@ function qes7() {
   while (k < 6) {
     q7Ans = prompt('Question 7 : What the meaning of folk,you have 6 attempts to guess the correct answer');
     for (var j = 0; j < meanings.length; j++) {
-      console.log(j);
       if (q7Ans.toLowerCase() === meanings[j]) {
         alert('Well done, Correct Answer,I will let u know All possible correct answer\n (' + meanings + ') .');
         correct = true;
